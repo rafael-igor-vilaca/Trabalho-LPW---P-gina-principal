@@ -263,14 +263,8 @@ footer p {
   border: 2px solid rgb(132, 0, 255);
 }
 
-@media (min-width: 400px) and (max-width: 550px) {
+@media (max-width: 550px) {
 
-  ul {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 399px) {
   ul {
     flex-direction: column;
   }
